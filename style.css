@@ -3,16 +3,16 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.home-page {
+.nest {
     background: #000;
     --home-scale: max(0.3, min(1, calc((75vw - 40px) / 1000)));
 }
 
-.home-page::before {
+.nest::before {
     display: none;
 }
 
-.home-page .desktop-content {
+.nest .eggs {
     width: min(75vw, 1100px);
     min-height: 100vh;
     margin: 0 auto;
@@ -22,7 +22,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.home-page .master-container {
+.nest .master-container {
     width: clamp(300px, 75vw, 1000px);
     max-width: none;
     margin: 0 auto;
@@ -501,7 +501,7 @@ img.portrait {
 
 @media screen and (max-width: 320px) and (max-height: 320px) {
   
-  .desktop-content {
+    .eggs {
     display: show !important;
   }
 
